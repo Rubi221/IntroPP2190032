@@ -1,5 +1,5 @@
-### Taller1 OpenMP
-## Cod:2190032 - Problema A - Suma de elementos de la serie de Fibonacci.
+## Taller1 OpenMP
+### Cod:2190032 - Problema A - Suma de elementos de la serie de Fibonacci.
 Dentro de la carpeta se encuentran los archivos .c y los ejecutables .exe.
 Aquellos archivos que empiezan por "sec" son aquellos donde esta una solucion secuencial, y aquellos que inician en "omp" son aquellos que contienen la solucuion paralelizada.
 
