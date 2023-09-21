@@ -9,10 +9,15 @@ int numeroHilos = 5;
 omp_set_num_threads(numeroHilos);
 double respuesta = 0;
 long numero;
-printf("Ingresar un numero: ");
+printf("Ingresa el indice par a encontrar: ");
 scanf("%ld", &numero);
 
-#pragma omp parallel sections
+if(numero%2 == 1){
+    printf("El numero ingresado debe ser par");
+    return 0;
+}
+else{
+    #pragma omp parallel sections
 {
     #pragma omp section
     {
@@ -32,4 +37,6 @@ scanf("%ld", &numero);
 
 printf("El numero %ld de la sucesion de Fibonacci es %.0f\n", numero, respuesta);
 return 0;
+}
+
 }
