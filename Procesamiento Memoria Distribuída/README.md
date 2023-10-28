@@ -124,3 +124,10 @@ mpirun -np 8 ./heat_mpi
 
 Asegúrate de ajustar las rutas y los valores de acuerdo a tus necesidades.
 Con esta guía revisada, deberías poder ejecutar el programa de resolución de la Ecuación del Calor con MPI de manera efectiva. 
+
+
+## Ejecucion y Resultados
+
+#### Prueba 1:
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/4f605edb-5ddb-4f43-895b-3b3150519a7a)
+
