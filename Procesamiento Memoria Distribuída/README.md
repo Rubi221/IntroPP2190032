@@ -147,5 +147,5 @@ Con esta guía revisada, deberías poder ejecutar el programa de resolución de 
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/da267276-abbd-4843-8635-a2f282345cfe)
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/f84add99-506c-4323-9810-5104d244334e)
 
-#### Pruebas con mejoras:
+
 
