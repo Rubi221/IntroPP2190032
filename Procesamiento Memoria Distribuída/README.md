@@ -49,13 +49,14 @@ Para compilar el programa, utiliza el archivo Makefile proporcionado. Primero, p
 ```bash
 make clean
 ```
-### Paso 3: Compilación
+### Paso 4: Compilación
 
 Luego, compila el código con el siguiente comando:
 
 ```bash
 make
 ```
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/b440a9ea-071a-43cd-8101-591a062077b9)
 
 ## Opciones de ejecucion
 ### Ejecucion Interactiva
@@ -128,6 +129,7 @@ Con esta guía revisada, deberías poder ejecutar el programa de resolución de 
 
 ## Ejecucion y Resultados
 
-#### Prueba 1:
-![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/4f605edb-5ddb-4f43-895b-3b3150519a7a)
+#### Pruebas sin mejoras:
+
+#### Pruebas con mejoras:
 
