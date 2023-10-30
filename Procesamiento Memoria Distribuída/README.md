@@ -134,7 +134,18 @@ Con esta guía revisada, deberías poder ejecutar el programa de resolución de 
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/23af15bb-c840-4961-8731-f24d8361db0c)
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/021e48c2-9a11-409d-81f9-40e2c67d1192)
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/3c9d44b6-9af4-48f3-8c65-aeae1f4bc97f)
-
+----------------------------------------------------------------------------------------------------------
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/d087de66-2e86-483f-b2e1-7ce2a11f700d)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/921f7504-f64d-42fe-b479-9fa9ff5d5ca2)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/db86a31d-7333-4926-9092-a137c6d3fca6)
+----------------------------------------------------------------------------------------------------------
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/494e3055-44ed-4785-9b22-1028ceaa8e7d)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/7e544d48-98b1-4181-8ce7-e18d4175d1ea)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/cfab025f-0e27-4133-bd5e-26a9838000b8)
+----------------------------------------------------------------------------------------------------------
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/ffef2997-b76b-4833-ad66-cda43b85076a)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/da267276-abbd-4843-8635-a2f282345cfe)
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/f84add99-506c-4323-9810-5104d244334e)
 
 #### Pruebas con mejoras:
 
