@@ -3,48 +3,37 @@
 
 ## Integrantes:
 Rubi Tatiana Utima Echeverry - 2190032
-Santiago Bolaños
 
-## Description
 
-This application demonstrates how to use the new CUDA 4.0 API for CUDA context management and multi-threaded access to run CUDA kernels on multiple-GPUs.
+Santiago Bolaños - 
 
-## Key Concepts
+## Descripcion
 
-Asynchronous Data Transfers, CUDA Streams and Events, Multithreading, Multi-GPU
+Esta aplicación demuestra cómo utilizar la nueva API CUDA 4.0 para la gestión del contexto CUDA y el acceso multiproceso para ejecutar kernels CUDA en varias GPU.
 
-## Supported SM Architectures
+## Arquitecturas SM compatibles
 
 [SM 5.0 ](https://developer.nvidia.com/cuda-gpus)  [SM 5.2 ](https://developer.nvidia.com/cuda-gpus)  [SM 5.3 ](https://developer.nvidia.com/cuda-gpus)  [SM 6.0 ](https://developer.nvidia.com/cuda-gpus)  [SM 6.1 ](https://developer.nvidia.com/cuda-gpus)  [SM 7.0 ](https://developer.nvidia.com/cuda-gpus)  [SM 7.2 ](https://developer.nvidia.com/cuda-gpus)  [SM 7.5 ](https://developer.nvidia.com/cuda-gpus)  [SM 8.0 ](https://developer.nvidia.com/cuda-gpus)  [SM 8.6 ](https://developer.nvidia.com/cuda-gpus)  [SM 8.7 ](https://developer.nvidia.com/cuda-gpus)  [SM 8.9 ](https://developer.nvidia.com/cuda-gpus)  [SM 9.0 ](https://developer.nvidia.com/cuda-gpus)
 
-## Supported OSes
 
-Linux, Windows
-
-## Supported CPU Architecture
+## Arquitectura de CPU compatible
 
 x86_64, ppc64le, armv7l
 
-## CUDA APIs involved
+## Prerequisitos
 
-### [CUDA Runtime API](http://docs.nvidia.com/cuda/cuda-runtime-api/index.html)
-cudaStreamDestroy, cudaFree, cudaMallocHost, cudaSetDevice, cudaFreeHost, cudaStreamSynchronize, cudaMalloc, cudaMemcpyAsync, cudaStreamCreate, cudaGetDeviceCount
+Descargue e instale el [CUDA Toolkit 12.3](https://developer.nvidia.com/cuda-downloads) para su plataforma correspondiente.
 
-## Prerequisites
-
-Download and install the [CUDA Toolkit 12.3](https://developer.nvidia.com/cuda-downloads) for your corresponding platform.
-
-## Build and Run
+## Construir y ejecutar
 
 ### Windows
-The Windows samples are built using the Visual Studio IDE. Solution files (.sln) are provided for each supported version of Visual Studio, using the format:
+Los ejemplos de Windows se crean utilizando el IDE de Visual Studio. Los archivos de solución (.sln) se proporcionan para cada versión compatible de Visual Studio, con el formato:
 ```
-*_vs<version>.sln - for Visual Studio <version>
+*_vs<versión>.sln - para Visual Studio <versión>
 ```
-Each individual sample has its own set of solution files in its directory:
+Cada muestra individual tiene su propio conjunto de archivos de solución en su directorio:
 
-To build/examine all the samples at once, the complete solution files should be used. To build/examine a single sample, the individual sample solution files should be used.
-> **Note:** Some samples require that the Microsoft DirectX SDK (June 2010 or newer) be installed and that the VC++ directory paths are properly set up (**Tools > Options...**). Check DirectX Dependencies section for details."
+Para crear/examinar todas las muestras a la vez, se deben utilizar los archivos de solución completos. Para crear/examinar una sola muestra, se deben utilizar los archivos de solución de muestra individuales.
 
 
 ### Ejecucion Pasiva
