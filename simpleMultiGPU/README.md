@@ -41,30 +41,44 @@ Each individual sample has its own set of solution files in its directory:
 To build/examine all the samples at once, the complete solution files should be used. To build/examine a single sample, the individual sample solution files should be used.
 > **Note:** Some samples require that the Microsoft DirectX SDK (June 2010 or newer) be installed and that the VC++ directory paths are properly set up (**Tools > Options...**). Check DirectX Dependencies section for details."
 
-### Linux
-The Linux samples are built using makefiles. To use the makefiles, change the current directory to the sample directory you wish to build, and run make:
-```
-$ cd <sample_dir>
-$ make
-```
-The samples makefiles can take advantage of certain options:
-*  **TARGET_ARCH=<arch>** - cross-compile targeting a specific architecture. Allowed architectures are x86_64, ppc64le, armv7l.
-    By default, TARGET_ARCH is set to HOST_ARCH. On a x86_64 machine, not setting TARGET_ARCH is the equivalent of setting TARGET_ARCH=x86_64.<br/>
-`$ make TARGET_ARCH=x86_64` <br/> `$ make TARGET_ARCH=ppc64le` <br/> `$ make TARGET_ARCH=armv7l` <br/>
-    See [here](http://docs.nvidia.com/cuda/cuda-samples/index.html#cross-samples) for more details.
-*   **dbg=1** - build with debug symbols
-    ```
-    $ make dbg=1
-    ```
-*   **SMS="A B ..."** - override the SM architectures for which the sample will be built, where `"A B ..."` is a space-delimited list of SM architectures. For example, to generate SASS for SM 50 and SM 60, use `SMS="50 60"`.
-    ```
-    $ make SMS="50 60"
-    ```
 
-*  **HOST_COMPILER=<host_compiler>** - override the default g++ host compiler. See the [Linux Installation Guide](http://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#system-requirements) for a list of supported host compilers.
-```
-    $ make HOST_COMPILER=g++
-```
+### Ejecucion Pasiva
+Para ejecutar el programa en modo pasivo utilizando sbatch, sigue estos pasos:
 
-## References (for more details)
+#### Creación de un Archivo de Script de Trabajo
+
+Crea un archivo de script de trabajo, por ejemplo, run_cuda.sh, utilizando un editor de texto. Agrega el siguiente contenido al archivo:
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=cuda_example       # Nombre del trabajo
+#SBATCH --output=cuda_example.out     # Nombre del archivo de salida
+#SBATCH --error=cuda_example.err      # Nombre del archivo de errores
+#SBATCH --partition=gpu                # Partición en la que deseas ejecutar tu trabajo
+#SBATCH --gres=gpu:1                   # Número de GPUs que necesitas
+#SBATCH --nodes=1                      # Número de nodos
+#SBATCH --ntasks-per-node=1            # Número de tareas por nodo
+#SBATCH --cpus-per-task=1              # Número de hilos por tarea
+#SBATCH --time=00:10:00                # Tiempo máximo de ejecución (HH:MM:SS)
+
+# Cargar el entorno de CUDA
+module load devtools/cuda/8.0
+
+# Navegar al directorio de trabajo
+cd /home/class/2023_2/rtautimae/cuda
+
+# Compilar el programa CUDA
+make
+
+# Ejecutar el programa
+./simpleMultiGPU
+```
+### Ejecucion en PC Local con 1 GPU
+
+![1gpu](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c2c720b8-146d-498f-9457-a4ce68f88ec8)
+
+
+### Ejecucion en GUANE-1 con 8 GPU's
+![Captura de pantalla 2023-11-27 072752](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c0b4a600-817c-4152-8f06-8e1a6a2d195e)
+
 
