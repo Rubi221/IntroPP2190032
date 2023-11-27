@@ -36,7 +36,7 @@ Cada muestra individual tiene su propio conjunto de archivos de solución en su 
 Para crear/examinar todas las muestras a la vez, se deben utilizar los archivos de solución completos. Para crear/examinar una sola muestra, se deben utilizar los archivos de solución de muestra individuales.
 
 
-### Ejecuci0n Pasiva
+### Ejecución Pasiva
 Para ejecutar el programa en modo pasivo utilizando sbatch, sigue estos pasos:
 
 #### Creación de un Archivo de Script de Trabajo
@@ -67,14 +67,14 @@ make
 # Ejecutar el programa
 ./simpleMultiGPU
 ```
-### Ejecucion en PC Local con 1 GPU
+### Ejecución en PC Local con 1 GPU
 
 ![1gpu](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c2c720b8-146d-498f-9457-a4ce68f88ec8)
 
-Video de ejecucion: (https://www.youtube.com/watch?v=0aOHaJGBKXQ)
+Video de ejecución: (https://www.youtube.com/watch?v=0aOHaJGBKXQ)
 
 
-### Ejecucion en GUANE-1 con 8 GPU's
+### Ejecución en GUANE-1 con 8 GPU's
 ![Captura de pantalla 2023-11-27 072752](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c0b4a600-817c-4152-8f06-8e1a6a2d195e)
 
 
