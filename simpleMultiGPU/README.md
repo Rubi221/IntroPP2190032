@@ -71,6 +71,8 @@ make
 
 ![1gpu](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c2c720b8-146d-498f-9457-a4ce68f88ec8)
 
+Video de ejecucion: (https://www.youtube.com/watch?v=0aOHaJGBKXQ)
+
 
 ### Ejecucion en GUANE-1 con 8 GPU's
 ![Captura de pantalla 2023-11-27 072752](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c0b4a600-817c-4152-8f06-8e1a6a2d195e)
