@@ -36,7 +36,7 @@ Cada muestra individual tiene su propio conjunto de archivos de solución en su 
 Para crear/examinar todas las muestras a la vez, se deben utilizar los archivos de solución completos. Para crear/examinar una sola muestra, se deben utilizar los archivos de solución de muestra individuales.
 
 
-### Ejecucion Pasiva
+### Ejecuci0n Pasiva
 Para ejecutar el programa en modo pasivo utilizando sbatch, sigue estos pasos:
 
 #### Creación de un Archivo de Script de Trabajo
