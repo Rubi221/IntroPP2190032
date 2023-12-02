@@ -62,29 +62,30 @@ El código genera dos archivos de imagen PPM que visualizan el conjunto fractal 
 
 Se realizaron 3 ejecuciones del codigo variando en cada una de ellas el tamaño de la imagen (Cantidad de pixeles)
 
-1. Ejecucion 1 - 500x500 px
+#### Ejecucion 1 - 500x500 px
+   
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/d522a4cd-6314-409b-9bbd-6e9908688102)
-**Secuencial:
+##### Secuencial:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/3ca2d573-37bd-4195-bd54-2b8f3ccf0220)
-**Paralela:
+##### Paralela:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/2fdb59d2-408f-4081-94d7-b252e3d4995b)
 
-2. Ejecucion 2 - 2000 x 2000 px
+#### Ejecucion 2 - 2000 x 2000 px
  ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/8c41127f-7e92-47f4-983b-31f299f21f75)
 
-**Secuencial:
+##### Secuencial:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/e1845d97-1ff1-4594-8d4a-5bb741180de0)
 
-**Paralela:
+##### Paralela:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/37e840d9-c5a5-426e-9dec-15fdb77d0aad)
 
-2. Ejecucion 3 - 4360 x 4360 px
-3. ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/fac76e69-8e35-47de-9604-c2349dba3c93)
+#### Ejecucion 3 - 4360 x 4360 px
+![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/fac76e69-8e35-47de-9604-c2349dba3c93)
 
-**Secuencial:
+##### Secuencial:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/319fb723-9328-48b5-a1ae-6092f0044bd6)
 
-**Paralela:
+##### Paralela:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c897106d-202c-45bb-968f-13063ede1dad)
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c7ac09ab-b26c-402c-b38c-ad64531c96d1)
 
