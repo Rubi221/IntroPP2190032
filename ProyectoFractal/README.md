@@ -1,6 +1,10 @@
-## Fractal Mandelbrot con OpenMP
-
+# Proyecto Final ICP - Fractal Mandelbrot con OpenMP
 Este proyecto genera una imagen del conjunto fractal de Mandelbrot en formato PPM (Portable Pixel Map) utilizando OpenMP para la paralelización y optimización del proceso.
+
+## Integrantes:
+Rubi Tatiana Utima Echeverry - 2190032
+Andres Felipe Valenzuela Pardo - 2190035
+David Alexander Vasquez Vivas - 2190053
 
 ### Cálculo del Conjunto de Mandelbrot
 
@@ -87,6 +91,7 @@ Se realizaron 3 ejecuciones del codigo variando en cada una de ellas el tamaño 
 
 ##### Paralela:
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c897106d-202c-45bb-968f-13063ede1dad)
+
 ![imagen](https://github.com/Rubi221/IntroPP2190032/assets/98795896/c7ac09ab-b26c-402c-b38c-ad64531c96d1)
 
 ### Interpretación de los Resultados
