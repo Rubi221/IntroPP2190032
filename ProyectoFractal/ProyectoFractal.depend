@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1701481123 source:c:\users\tatau\documents\universidad\10mo_semestre\ic_paralela\proyectofractal\main.cpp
+	<cstdlib>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<cmath>
+	<ctime>
+	<cstring>
+	<omp.h>
+
