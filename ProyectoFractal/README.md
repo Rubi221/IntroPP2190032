@@ -20,7 +20,7 @@ La versión paralela utiliza OpenMP para distribuir el cálculo de los píxeles 
 
 La paralezacion del ciclo for se realiza mediante las siguientes directivas
 
-cpp
+```bash
 # pragma omp parallel \
   shared ( b, cant, cant_max, g, r, x_max, x_min, y_max, y_min ) \
   private ( i, j, k, x, x1, x2, y, y1, y2 )
@@ -34,7 +34,7 @@ cpp
     }
   }
 }
-
+```
 
 
 1. **#pragma omp parallel:** Esta es la directiva principal de OpenMP que indica que el bloque de código siguiente debe ejecutarse en paralelo. Cada hilo que se inicie ejecutará el mismo bloque de código.
@@ -59,6 +59,8 @@ Este código genera visualizaciones del conjunto fractal de Mandelbrot, que es c
 El código genera dos archivos de imagen PPM que visualizan el conjunto fractal de Mandelbrot. Uno de los archivos se crea utilizando la versión secuencial del código (fractal_secuencial.ppm), y el otro se genera mediante la versión paralela utilizando OpenMP (fractal_paralelo.ppm). Ambos archivos contienen información en formato PPM, que es un formato de imagen simple. 
 
 ### Resultados
+
+Ejecuciones.....
 
 ### Interpretación de los Resultados
 
