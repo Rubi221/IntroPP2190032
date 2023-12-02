@@ -2,9 +2,9 @@
 Este proyecto genera una imagen del conjunto fractal de Mandelbrot en formato PPM (Portable Pixel Map) utilizando OpenMP para la paralelización y optimización del proceso.
 
 ## Integrantes:
-Rubi Tatiana Utima Echeverry - 2190032
-Andres Felipe Valenzuela Pardo - 2190035
-David Alexander Vasquez Vivas - 2190053
+- Rubi Tatiana Utima Echeverry - 2190032
+- Andres Felipe Valenzuela Pardo - 2190035
+- David Alexander Vasquez Vivas - 2190053
 
 ### Cálculo del Conjunto de Mandelbrot
 
