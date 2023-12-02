@@ -8,6 +8,11 @@ Este proyecto genera una imagen del conjunto fractal de Mandelbrot en formato PP
   
 * David Alexander Vasquez Vivas - 2190053
 
+### Compilacion y Ejecucion
+Inicialmente para poder compilar el codigo es necesario tener instalado y configurado OpenMP, el cual puede obtener en el siguiente Link: http://ferestrepoca.github.io/paradigmas-de-programacion/paralela/tutoriales/openmp/instalacion_01.html  
+Despues de seguir los pasos de dicha guia, ingrese a Code::Blocks y abra alli el codigo main.cpp que se encuentra en este repo, si esta OpenMP bien configurado podra construir y correr el codigo sin problema.
+Nota: Este codigo genera imagenes en formato .ppm , asi que debe tener un programa compatible con este formato para poder visualizarlas.
+
 ### Cálculo del Conjunto de Mandelbrot
 
 El código se encarga de iterar sobre cada píxel en una matriz bidimensional que representa la imagen. Para cada píxel, se realiza la iteración de la fórmula de Mandelbrot: \(Z_{n+1} = Z_n^2 + C\), donde \(Z_n\) es un número complejo y \(C\) es la coordenada compleja correspondiente al píxel.
